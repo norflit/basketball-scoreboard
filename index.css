@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.flex-container {
+    max-width: 410px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-el {
+    font-family: "Cursed Timer ULiL", sans-serif;
+    font-size: 90px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    border-radius: 5px;
+    
+    background-color: #080001;
+    color: #F94F6D;
+    
+    width: 155px;
+    height: 120px;
+    
+    transition: box-shadow 500ms ease;
+}
+
+.btn-container {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    font-family: "Cursed Timer ULiL", sans-serif;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+}
+
+#new-game-container {
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+}
+
+#new-game-btn {
+    margin-top: 32px;
+    font-size: 24px;
+    width: auto;
+}
+
+.score-leader-shadow {
+    box-shadow: inset 0 0 24px #ffce47;
+}
+
+.score-parity-shadow {
+    box-shadow: inset 0 0 16px #e0e0e0;
+}
